@@ -65,7 +65,7 @@ def index(request):
     return render(request, 'index.html')
 
 # OpenAI API 키 설정 (환경 변수로 설정하는 것이 안전함)
-openai.api_key = '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'  # 여기에 OpenAI API 키를 입력하세요.
+openai.api_key = 'aaa'  # 여기에 OpenAI API 키를 입력하세요.
 
 @csrf_exempt  # CSRF 예외 처리
 def convert_to_latex(request):
