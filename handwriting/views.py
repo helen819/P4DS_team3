@@ -64,8 +64,6 @@ def send_drawing(request):
 def index(request):
     return render(request, 'index.html')
 
-# # OpenAI API 키 설정 (환경 변수로 설정하는 것이 안전함)
-# openai.api_key = 'aaa'  # 여기에 OpenAI API 키를 입력하세요.
 
 @csrf_exempt  # CSRF 예외 처리
 def convert_to_latex(request):
